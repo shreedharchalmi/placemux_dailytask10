@@ -1,0 +1,11 @@
+2026-09-28 16:22:41,207 [INFO] Starting Task 10: Complex Non-Linear Relationships Pipeline
+2026-09-28 16:22:41,427 [INFO] Input verification passed: 569 samples, 32 features.
+2026-09-28 16:22:41,431 [INFO] Splits generated -> Dev: 483, Test: 86
+2026-09-28 16:22:47,670 [INFO] 5-Fold CV Accuracy -> Linear: 0.9813 | Non-Linear: 0.9627
+2026-09-28 16:22:47,670 [INFO] 5-Fold CV ROC-AUC  -> Linear: 0.9961 | Non-Linear: 0.9927
+2026-09-28 16:22:47,912 [INFO] Held-Out Test Results -> Non-Linear Accuracy: 0.9884
+2026-09-28 16:22:47,913 [INFO] Malignant Recall (Class 0) -> Non-Linear: 1.0000 (FN: 0)
+2026-09-28 16:22:48,921 [INFO] Saved explainability plots to artifacts/partial_dependence_plots.png
+2026-09-28 16:22:48,940 [INFO] Trained non-linear model saved to artifacts/nonlinear_gradient_boost_model.joblib
+2026-09-28 16:22:48,943 [INFO] Evaluation metrics JSON saved to artifacts/task10_metrics.json
+2026-09-28 16:22:48,948 [INFO] Task 10 execution completed successfully.
